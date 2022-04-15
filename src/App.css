@@ -254,3 +254,71 @@ body {
   height: var(--size);
   fill: var(--color-pri-sub);
 }
+
+/* Testimonies */
+.testimonies__container{
+  width: 95vw;
+  margin: 3rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.testimony{
+  width: 40rem;
+  height: 50rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.testimony__body{
+  height: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(102, 51, 153, 0.679);
+  padding: 5rem 2rem 1rem 2rem;
+  padding-top: 5rem;
+}
+
+.testimony__name-date{
+  background-color: var(--color-white);
+  padding: 1rem;
+  width: max-content;
+  position: absolute;
+  top: -3rem;
+  left: 2rem;
+}
+
+.testimony__name-date--name{
+  font-size: 1.6rem;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+  margin-bottom: .3rem;
+  color: var(--color-grey);
+}
+
+.testimony__name-date--date{
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.testimony__title{
+  font-size: 3rem;
+  color: var(--color-white);
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+
+.testimony__text{
+  font-size: 1.5rem;
+  color: var(--color-white);
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-weight: 500;
+  text-align: left;
+}
+/* End of Testimonies */
