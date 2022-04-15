@@ -256,9 +256,11 @@ body {
 }
 
 /* Testimonies */
+
 .testimonies__container{
   width: 95vw;
   margin: 3rem auto;
+  margin-top: 6rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -281,6 +283,28 @@ body {
   background-color: rgba(102, 51, 153, 0.679);
   padding: 5rem 2rem 1rem 2rem;
   padding-top: 5rem;
+}
+
+.testimony__icon{
+  --size: 8rem;
+  padding: .4rem;
+  width: var(--size);
+  height: var(--size);
+  background-color: var(--color-pri-sub);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -4rem;
+  left: 2rem;
+  border-radius: 50%;
+}
+
+.testimony__icon svg{
+  --size: 4rem;
+  width: var(--size);
+  height: var(--size);
+  fill: var(--color-white);
 }
 
 .testimony__name-date{
